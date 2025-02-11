@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Function for addition
+add() {
+  result=$(( $1 + $2 ))
+  echo "Addition: $1 + $2 = $result"
+}
+
+# Function for subtraction
+subtract() {
+  result=$(( $1 - $2 ))
+  echo "Subtraction: $1 - $2 = $result"
+}
+
