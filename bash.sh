@@ -20,8 +20,14 @@ print_numbers_while() {
   done
 }
 
+Devops() 
+{
+echo "Hello $1 students"
+}
+
+
 # Calling both functions
 print_numbers_for
 print_numbers_while
-
+Devops "DevOps"
 
